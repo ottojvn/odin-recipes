@@ -1,0 +1,15 @@
+body {
+  margin: 0 16rem 8rem 16rem;
+  background-color: lightgray;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+figure {
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
