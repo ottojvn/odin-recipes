@@ -39,13 +39,13 @@ a {
 }
 
 #chicken-sandwich {
-  background-image: url("/images/chicken-sandwich.jpg");
+  background-image: url("../images/chicken-sandwich.jpg");
 }
 
 #honey-spice-cake {
-  background-image: url("/images/honey-spice-cake.jpg");
+  background-image: url("../images/honey-spice-cake.jpg");
 }
 
 #lamberts-dumplings {
-  background-image: url("/images/lamberts-dumplings.jpg");
+  background-image: url("../images/lamberts-dumplings.jpg");
 }
