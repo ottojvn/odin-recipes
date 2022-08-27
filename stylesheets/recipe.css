@@ -1,0 +1,35 @@
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 80vw;
+  max-height: 80vh;
+}
+
+section {
+  background-color: #646464;
+  max-width: 80ch;
+  text-align: center;
+  padding: 2rem 1rem;
+  margin: 1rem auto;
+}
+
+footer {
+  text-align: center;
+  margin: auto;
+}
+
+.small-text {
+  margin-top: 0;
+  font-size: 0.75rem;
+}
