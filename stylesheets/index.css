@@ -1,7 +1,51 @@
+ul {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-around;
+  align-items: center;
+}
+
 li {
   list-style-type: none;
 }
 
 a {
   text-decoration: none;
+}
+
+.recipe-link {
+  background-color: darkgray;
+  background-size: cover;
+  min-width: 360px;
+  min-height: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bolder;
+  text-shadow: 0px 0px 5px white;
+  color: black;
+}
+
+.recipe-link:hover {
+  transform: scale(1.125);
+  box-shadow: 0px 0px 2rem black;
+}
+.recipe-link:active {
+  opacity: 0.9;
+  box-shadow: 0px 0px 4rem black;
+}
+
+#chicken-sandwich {
+  background-image: url("/images/chicken-sandwich.jpg");
+}
+
+#honey-spice-cake {
+  background-image: url("/images/honey-spice-cake.jpg");
+}
+
+#lamberts-dumplings {
+  background-image: url("/images/lamberts-dumplings.jpg");
 }
